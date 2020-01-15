@@ -10,9 +10,4 @@ build:
     # run tests
     - pytest
   on_success:
-    # my heroku app git urls:
-    # http url: https://git@heroku.com:lit-caverns-08089.git
-    # git url: git@heroku.com:lit-caverns-08089.git
-    # use git url not http.
-    # change this value to the value of your app.
-    - git push git@heroku.com:lit-caverns-08089.git
+    - git push git@heroku.com:mighty-stream-03799.git
